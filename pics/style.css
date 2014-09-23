@@ -1,0 +1,50 @@
+p {color:#0000FF;}
+
+#head
+{
+    background-color:seashell;
+    border:2px solid black;
+}
+#navigator
+{
+    height:300px;
+    width:200px;
+    background-color:Cyan;
+    color:Tomato;
+    border:2px solid black;
+}
+
+#navigator a
+{
+    color:Tomato;
+}
+#content
+{
+    background-color:LightPink;
+    border:2px solid black;
+}
+#footer
+{
+    background-color:Orange;
+    border:2px solid black;
+    text-align:right;
+}
+#loggo
+{
+    height:200px;
+    width:200px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid black;
+}
+#pic1
+{
+    height:300px;
+    width:300px;
+}
+
+.colorwelcome
+{
+    color:OliveDrab;
+}
