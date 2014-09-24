@@ -1,31 +1,60 @@
-p {color:#0000FF;}
+p {color:black;}
 
+html, body
+{
+    background-color:#808080 ;
+    
+}
+
+
+
+
+/*INDEX*/
 #head
 {
-    background-color:seashell;
+    background-color:black;
     border:2px solid black;
+    color:white;
+    text-align:center;
+    
 }
+
 #navigator
 {
-    height:300px;
-    width:200px;
-    background-color:Cyan;
-    color:Tomato;
+    line-height:2;
+    font-size:25px;
+    height:200px;
+    width:150px;
+    background-color:#A0A0A0;
+    color:#181818;
+    border:2px solid black;
+    text-decoration:;
+}
+
+#navigator a:link
+{
+
+}
+
+#navigator a:hover
+{
+font-size:26px;  
+}
+
+#navigator a:active
+{
+    
+}
+
+#content
+{
+    background-color:#B0B0B0;
     border:2px solid black;
 }
 
-#navigator a
-{
-    color:Tomato;
-}
-#content
-{
-    background-color:LightPink;
-    border:2px solid black;
-}
 #footer
 {
-    background-color:Orange;
+    background-color:#C8C8C8;
     border:2px solid black;
     text-align:right;
 }
@@ -44,7 +73,36 @@ p {color:#0000FF;}
     width:300px;
 }
 
-.colorwelcome
+
+
+
+/*Presentation*/
+#picoffme1
 {
-    color:OliveDrab;
+    height:300px;
+    width:300px;
+    margin-left:80%;
 }
+
+/*Labroationer*/
+#picsandvid
+{
+    background-color:#383838;
+    border:2px black;
+    width:200px;
+    height:150px;
+}
+
+#table
+{
+ background-color:#383838;
+ border:2px black;
+ width:350px;
+ height:350px;
+}
+
+
+
+
+
+/*Kontakt*/
