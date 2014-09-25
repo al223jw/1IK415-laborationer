@@ -1,63 +1,105 @@
-p {color:black;}
 
-html, body
+body
 {
-    background-color:#808080 ;
-    
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:#222;
+    background: url(Bacpicone.png);100%;
 }
 
 
+#container
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:900px;
+    border:2px solid black;
+}
 
-
-/*INDEX*/
 #head
 {
     background-color:black;
     border:2px solid black;
     color:white;
     text-align:center;
-    
+    min-height:300px;
 }
 
 #navigator
 {
-    line-height:2;
     font-size:25px;
-    height:200px;
     width:150px;
-    background-color:#A0A0A0;
-    color:#181818;
     border:2px solid black;
-    text-decoration:;
 }
 
-#navigator a:link
+#navigator ul
 {
-
+list-style:none;
+margin:0px;
+padding:0px;
 }
 
 #navigator a:hover
 {
-font-size:26px;  
+background-color:red;
 }
 
-#navigator a:active
+#navigatorbar
 {
-    
+    height:230px;
+}
+
+a
+{
+    text-decoration:none;
+    color:darkgreen;
+}
+
+.box
+{
+    width:100%;
+    height:2em;
+    display: block;
+    background-color:white;
+    color:black;
+}
+
+.active
+{
+    color: blue;
+}
+
+#navigator2
+{
+    width:150px;
+    height:180px;
+    display: block;
+    background-color:white;
+    border:2px solid black;
 }
 
 #content
 {
     background-color:#B0B0B0;
     border:2px solid black;
+    border-left:0;
+    border-right:0;
+    margin-bottom: 0px;
 }
 
 #footer
 {
     background-color:#C8C8C8;
-    border:2px solid black;
-    text-align:right;
+    text-align:Left;
+    height:1000%;
 }
+
+#footer h3
+{
+    margin-top: 0px;
+}
+
+/*INDEX*/
+
 #loggo
 {
     height:200px;
@@ -67,6 +109,7 @@ font-size:26px;
     margin-right:auto;
     border:2px solid black;
 }
+
 #pic1
 {
     height:300px;
@@ -74,17 +117,21 @@ font-size:26px;
 }
 
 
-
-
 /*Presentation*/
 #picoffme1
 {
     height:300px;
     width:300px;
-    margin-left:80%;
+    margin-left:60%;
 }
 
 /*Labroationer*/
+
+#headsize
+{
+    height:300px;
+}
+
 #picsandvid
 {
     background-color:#383838;
@@ -98,11 +145,13 @@ font-size:26px;
  background-color:#383838;
  border:2px black;
  width:350px;
- height:350px;
+ height:400px;
 }
 
-
-
+#video10
+{
+    float:right;
+}
 
 
 /*Kontakt*/
