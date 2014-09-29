@@ -7,58 +7,72 @@
         <title>Antons Page</title>
         
         <link rel="stylesheet" href="../pics/style.css"/>
+        <link rel="stylesheet" href="../pics/print.css" media="print"/>
         
-    </head>
-    <body>
+</head>
+<body>
+    <div id="container">
+    
+        <div id="head">
+            <H1>Anton Contact</H1>
+        </div>
         
-       <H3>Welcome!</H3>
+            <div id="navigator">
+                <ul>
+                    <li><a href="../index.html"  class="box">Home</a></li>
+                    <li><a href="Presentation.html"  class="box active">Presentation</a></li>
+                    <li><a href="labroationer.html" class="box">Laborations</a></li>
+                    <li><a href="kontakt.html" class="box">Contact</a></li>
+                </ul>
+            </div>
+          
+          
+        <div id="content">
+            <H3>Welcome!</H3>
+             <H3>Form</H3>
+          
     
-          <ul>
-            <li><a href="../index.html" class="box">Home</a></li>
-            <li><a href="Presentation.html" class="box">Presentation.</a></li>
-            <li><a href="labroationer.html" class="box">Laborations</a></li>
-            <li><a href="kontakt.html" id="box" class="box active">Contact</a></li> 
-          </ul>
-          
-          
-          
-      <H2>Form</H2>
-          
-    
-   <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
    
-       <fieldset>
+                <fieldset>
        
-           <legend>Question</legend>
-               <select name="Information">
-                 <option value="Question">Question</option>
-                 <option value="Support">Support</option>   
-               </select><br>
+                <legend>Question</legend>
+                <select name="Information">
+                <option value="Question">Question</option>
+                <option value="Support">Support</option>   
+                </select><br>
                
-                 <label for="Title1">Title</label>
-                 <input id="Title1" type="text" name="Title"/><br>
+                <label for="Title1">Title:</label>
+                <input id="Title1" type="text" name="Title"/><br>
                  
-                 <label for="Question1">Question</label>
-                 <input id="Question1" type="text" name="Question"/><br>
+                <label for="Question1">Question:</label>
+                <input id="Question1" type="text" name="Question"/><br>
                  
-                 Question:<textarea id="Question" cols="30" rows="4"></textarea>
+                Question:<textarea id="Question" cols="30" rows="4"></textarea>
                  
-        </fieldset>
+                </fieldset>
     
-        <fieldset>
+                <fieldset>
             
-            <legend>Information about me</legend>
+                <legend>Information about me</legend>
             
-            Contact me by mail:  <input type="radio" name="Contactway" value="Contact me by mail"/><br>
-            Contact me by phone: <input type="radio" name="Contactway" value="Contact me by phone"/>
+                Contact me by mail:  <input type="radio" name="Contactway" value="Contact me by mail"/><br>
+                Contact me by phone: <input type="radio" name="Contactway" value="Contact me by phone"/>
             
             
-        </fieldset>
+                </fieldset>
         
-        <input type="submit" value="Send" />
+                <input type="submit" value="Send" />
     
-    </form>
-        
-      
-    </body>
+                </form>
+       
+        </div>
+    
+    <div id="footer">
+       <h2>Anton Larsson.</h2>
+           
+    </div>
+    
+</div>    
+</body>
 </html>
