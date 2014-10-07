@@ -8,6 +8,7 @@
         
         <link rel="stylesheet" href="../pics/style.css"/>
         <link rel="stylesheet" href="../pics/print.css" media="print"/>
+        <link rel="stylesheet" href="../pics/mobile.css" media="screen"/>
         
 </head>
 <body>
@@ -30,42 +31,41 @@
         <div id="content">
             <H3>Welcome!</H3>
              <H3>Form</H3>
-          
-    
+         
                 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
    
                 <fieldset>
-       
                 <legend>Question</legend>
+            <div id="info">
                 <select name="Information">
                 <option value="Question">Question</option>
                 <option value="Support">Support</option>   
                 </select><br>
-               
+            </div>   
                 <label for="Title1">Title:</label>
                 <input id="Title1" type="text" name="Title"/><br>
                  
                 <label for="Question1">Question:</label>
                 <input id="Question1" type="text" name="Question"/><br>
                  
-                Question:<textarea id="Question" cols="30" rows="4"></textarea>
+                Type Question:<textarea id="Question" cols="30" rows="4"></textarea>
                  
                 </fieldset>
     
                 <fieldset>
             
                 <legend>Information about me</legend>
-            
+                
+            <div id="Contactway">    
                 Contact me by mail:  <input type="radio" name="Contactway" value="Contact me by mail"/><br>
                 Contact me by phone: <input type="radio" name="Contactway" value="Contact me by phone"/>
-            
+            </div>
             
                 </fieldset>
         
                 <input type="submit" value="Send" />
     
                 </form>
-       
         </div>
     
     <div id="footer">
