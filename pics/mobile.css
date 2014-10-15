@@ -70,6 +70,27 @@ a
 {
     background-position:90px -285px;
 }
+
+.box1:hover 
+{    
+   display:none;
+}
+
+.box2:hover
+{
+   display:none;
+}
+
+.box3:hover
+{
+    display:none;
+}
+
+.box4:hover
+{
+    display:none;
+}
+
 .active
 {
     color: blue;
